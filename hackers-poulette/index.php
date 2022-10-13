@@ -9,7 +9,7 @@
 <body>
     <h1>Hackers Poulette support</h1>
     
-        <form action="QueryForm.php" method="get" id="contact_support">
+        <form action="QueryForm.php" method="post" id="contact_support">
             <div>
                 <label for="lastname">Enter your last name:</label>
                 <input type="text" name="lastname" id="lastname" placeholder="Last name"> 

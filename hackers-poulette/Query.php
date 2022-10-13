@@ -1,6 +1,6 @@
 <?php
 class Query {
-    private $db;
+    public $db;
     public function __construct($dbName = "hpoulette_datas", $host = "localhost", $user = 'gubamo', $pswd = 'Zibulon2303.') {
         try
         {
